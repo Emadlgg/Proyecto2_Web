@@ -40,7 +40,6 @@ Documentación de componentes interactiva
 * ✔️ Límite de 9 caracteres en display
 * ✔️ Custom Hook para lógica de negocio
 * ✔️ ESLint con configuración Standard JS
-* ✔️ Integración continua con GitHub Actions
 * ✔️ 100% de cobertura en pruebas críticas
 
 ---
