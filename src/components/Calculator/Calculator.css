@@ -1,0 +1,52 @@
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.display {
+  background: #f8f8f8;
+  padding: 10px;
+  margin-bottom: 10px;
+  text-align: right;
+  font-size: 2em;
+  border-radius: 5px;
+  min-height: 1.2em;
+}
+
+.keypad {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+button {
+  padding: 15px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.operator {
+  background-color: #f0a500;
+  color: white;
+}
+
+button.clear {
+  background-color: #ff4d4d;
+  color: white;
+}
+
+button.equals {
+  background-color: #4CAF50;
+  color: white;
+  grid-column: span 1;
+}
+
+button.zero {
+  grid-column: span 2;
+}
